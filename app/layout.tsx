@@ -141,7 +141,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://obscura.ccstiet.com"),
+  metadataBase: new URL("https://test.ccstiet.com"),
   title: "Obscura - Hack The Maze | Creative Computing Society",
   description:
     "In a fractured realm between logic and sorcery, a rogue demonic entity named Obscura has hijacked the overworld's robotic army. Join the ultimate hacking competition and escape the digital labyrinth. Register now!",
@@ -246,7 +246,7 @@ export default function RootLayout({
               },
               location: {
                 "@type": "VirtualLocation",
-                url: "https://obscura.ccstiet.com",
+                url: "https://test.ccstiet.com",
               },
               eventStatus: "https://schema.org/EventScheduled",
               eventAttendanceMode:
