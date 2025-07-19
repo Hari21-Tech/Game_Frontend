@@ -20,7 +20,7 @@ export default function OAuthRedirect() {
         localStorage.setItem("name", data.name);
         localStorage.setItem("email", data.email);
 
-        router.replace("/register");
+        router.replace("/play");
       })
       .catch(() => {
         router.replace("/login");
