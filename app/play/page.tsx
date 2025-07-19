@@ -65,7 +65,7 @@ const Game = () => {
       {paused && (
         <PauseOverlay
           onClose={() => setPaused(false)}
-          targetDate="2025-07-20T20:00:00+05:30"
+          targetDate="2025-07-21T00:00:00+05:30"
         />
       )}
 

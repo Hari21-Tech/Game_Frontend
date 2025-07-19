@@ -9,7 +9,7 @@ function Leaderboard() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/game/leaderboard`, { credentials: "include" })
+    fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/leaderboard`, { credentials: "include" })
       .then((res) => res.json())
       .then((json) => {
         setData(json || []);
@@ -43,7 +43,7 @@ function Announcement() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/game/announcements`, { credentials: "include" })
+    fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/announcements`, { credentials: "include" })
       .then((res) => res.json())
       .then((json) => {
         setAnnouncement(json.announcement || "");
