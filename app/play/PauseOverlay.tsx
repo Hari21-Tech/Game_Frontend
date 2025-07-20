@@ -78,10 +78,10 @@ export default function PauseOverlay({ onClose, targetDate }: { onClose: () => v
             <h4 className="text-xl font-semibold mb-2 text-primary">Leaderboard</h4>
             <Leaderboard />
           </div>
-          <div className="bg-card p-8 rounded-xl shadow mb-4 flex flex-col gap-4">
+          {/* <div className="bg-card p-8 rounded-xl shadow mb-4 flex flex-col gap-4">
             <h4 className="text-xl font-semibold mb-2 text-accent">Announcement</h4>
             <Announcement />
-          </div>
+          </div> */}
           <div className="bg-card p-8 rounded-xl shadow flex flex-col gap-4 items-center">
             <h4 className="text-xl font-semibold mb-2 text-blue-500">Time Left</h4>
             <CountdownTimer targetDate={targetDate} />
